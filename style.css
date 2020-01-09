@@ -1,0 +1,119 @@
+body{
+	background-color:#555;
+	color:#333;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	line-height: 1.1em;
+	margin:0px;
+}
+.menu a{
+	float: right;
+	padding: 6px;
+	margin-top: 10px;
+	color:#ccc;
+	background-color: blue;
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	text-decoration: none;
+	line-height: 30px;
+}
+.menu a:hover{
+	background: aqua;
+	color: #333;
+}
+.menu{
+	line-height: 40%;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	color:#ccc;
+	
+}
+.menu ul li a{
+	float: right;
+	padding:20px 25px;
+	font-size: 25px;
+	border: 0px solid #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+}
+
+.menu ul  :hover{
+	background-color:aqua;
+	color:#333;
+	border: 0px solid #ccc;
+	border-radius: 35px;
+	
+}
+
+.menu{
+	
+	padding: 0px;
+}
+
+
+#showcase{
+	background-color:blue;
+	background-position: center right;
+	min-height: 600px;
+	margin-bottom: 30xp;
+	text-align: center;
+	padding: 10px;
+	
+}
+#showcase h2{
+	color: #ccc;
+	padding : 160px;
+	font-size: 50px;
+	line-height: 1.6em;
+}
+#main-footer{
+	background-color:blue;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-block-end: auto;
+	}
+	#showcase input[type='submit']{
+		background-color: blue;
+		color: #ccc;
+		border-radius: 35px;
+		padding: 5px;
+		font-size: 30px;
+
+	}
+	#showcase input[type='submit']:hover{
+		background: aqua;
+		color: #333;
+
+	}
+	.container h4 a{
+		text-decoration: none;
+		padding-top:2rem;
+		color: #ccc;
+	}
+	.container  a{
+		color:#333;
+	}
+	.container h4 a:hover{
+
+		color:#333;
+	}
+
+@media (max-width: 600px){
+	.menu{
+		width: 100%;
+		float: none;
+	}
+	#showcase{
+ 		width: 100%;
+		float: none;
+	}
+}
